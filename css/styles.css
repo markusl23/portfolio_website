@@ -88,7 +88,7 @@ ul li a:focus {
 .flex-container {
   display: flex;
   flex-direction: column;
-  width: 60vw;
+  width: 60vw; /* check again when adding viewport code, different widths for different viewports here */
   justify-self: center;
 }
 
