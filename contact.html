@@ -30,7 +30,7 @@
         <label class="flex-item" for="phone">Phone Number (optional)</label>
         <input class="flex-item" type="tel" id="phone" name="phone">
         <label class="flex-item" for="email">Email Address *</label>
-        <input class="flex-item" type="email" id="email" name="email" required>
+        <input class="flex-item" type="email" id="email" name="email" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" oninvalid="setCustomValidity('Please check email address format (e.g. xyz@abc.net).')">
         <label class="flex-item" for="message">Message</label>
         <textarea class="flex-item" name="message" rows="4"></textarea>
         <button class="flex-item btn" type="submit">Submit</button>
