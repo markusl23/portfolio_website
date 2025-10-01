@@ -9,6 +9,17 @@
   */
 }
 
+nav {
+  position: fixed;
+  background-color: white;
+  width: 98vw;
+  justify-self: center;
+}
+
+main {
+  margin-top: 40px;
+}
+
 h1, h2 {
   font-family: Courier, Arial;
   background-color: black;
