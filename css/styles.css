@@ -24,6 +24,10 @@ a:visited {
   color: red;
 }
 
+a:active {
+  color: limegreen;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
