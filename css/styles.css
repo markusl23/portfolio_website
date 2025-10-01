@@ -20,6 +20,10 @@ img {
   border-radius: 5px;
 }
 
+a:visited {
+  color: red;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
