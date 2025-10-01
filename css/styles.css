@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  padding: 3px;
+  font-family: Helvetica, Arial;
+  /*
+  border: 1px;
+  border-style: solid;
+  border-color: grey;
+  */
+}
+
+h1, h2 {
+  font-family: Courier, Arial;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+  overflow: hidden;
+}
+
+ul li {
+  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+ul li a {
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+ul li a:focus {
+  background-color: limegreen;
+  color: black;
+}
+
+#portrait {
+  max-height: 300px;
+  width: auto;
+}
+
+.logo {
+  float: left;
+  max-height: 42px;
+  width: auto;
+}
+
+.tec-icn {
+  max-height: 80px;
+  width: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  justify-self: center;
+}
+
+.flex-item {
+  padding: 10px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+}
+
+.wrk-img {
+  max-width: 300px;
+  height: auto;
+  border: 2px;
+  border-style: solid;
+  border-color: lightgrey;
+}
+
+.wrk-img:hover {
+  border-color: black;
+}
+
+.wrk-img:active {
+  border-color: limegreen;
+}
+
