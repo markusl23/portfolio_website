@@ -124,3 +124,29 @@ ul li a:focus {
   border-color: limegreen;
 }
 
+.about-me-grid {
+  display: grid;
+}
+
+.about-me-grid__item {
+  justify-self: center;
+}
+
+@media all and (min-width: 700px) {
+  .about-me-grid {
+    grid-template-columns: 45vw 45vw;
+    grid-gap: 50px;
+  }
+
+  .about-me-grid p {
+    font-size: 18px;
+    justify-self: center;
+    align-self: center;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .about-me-grid {
+    grid-gap: 25px;
+  }
+}
