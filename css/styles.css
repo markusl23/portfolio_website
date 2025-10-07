@@ -150,3 +150,24 @@ ul li a:focus {
     grid-gap: 25px;
   }
 }
+
+.project-grid {
+  display: grid;
+  justify-self: center;
+}
+
+.project-grid__item {
+  justify-self: center;
+}
+
+@media all and (min-width: 700px) {
+  .project-grid {
+    grid-template-columns: 45vw 45vw;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .project-grid {
+    grid-template-columns: 30vw 30vw 30vw;
+  }
+}
