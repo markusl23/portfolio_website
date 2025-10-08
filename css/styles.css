@@ -13,7 +13,6 @@ nav {
   position: fixed;
   background-color: white;
   width: 98vw;
-  justify-self: center;
 }
 
 main {
@@ -88,7 +87,7 @@ ul li a:focus {
 .flex-container {
   display: flex;
   flex-direction: column;
-  width: 60vw; /* check again when adding viewport code, different widths for different viewports here */
+  width: 60vw;
   justify-self: center;
 }
 
