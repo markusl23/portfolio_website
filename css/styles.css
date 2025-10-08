@@ -105,6 +105,7 @@ ul li a:focus {
   flex-direction: row;
   align-items: center;
   justify-self: center;
+  justify-content: center;
 }
 
 .wrk-img {
