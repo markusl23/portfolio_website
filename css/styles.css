@@ -126,6 +126,8 @@ ul li a:focus {
 
 .about-me-grid {
   display: grid;
+  align-items: center;
+  justify-items: center;
 }
 
 .about-me-grid__item {
@@ -140,8 +142,6 @@ ul li a:focus {
 
   .about-me-grid p {
     font-size: 18px;
-    justify-self: center;
-    align-self: center;
   }
 }
 
