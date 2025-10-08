@@ -87,9 +87,12 @@ ul li a:focus {
 .flex-container {
   display: flex;
   flex-direction: column;
+  /*
   width: 60vw;
   justify-self: center;
-  
+  */
+  max-width: 60vw;
+  margin: auto;
 }
 
 .flex-item {
