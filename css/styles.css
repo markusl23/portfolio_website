@@ -89,6 +89,7 @@ ul li a:focus {
   flex-direction: column;
   width: 60vw;
   justify-self: center;
+  justify-content: center;
 }
 
 .flex-item {
@@ -128,6 +129,7 @@ ul li a:focus {
   display: grid;
   align-items: center;
   justify-items: center;
+  justify-content: center;
 }
 
 .about-me-grid__item {
@@ -154,6 +156,7 @@ ul li a:focus {
 .project-grid {
   display: grid;
   justify-self: center;
+  justify-content: center;
 }
 
 .project-grid__item {
