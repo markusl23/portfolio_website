@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <li><a href="../index.html" target="_self">Home</a></li>
         <li><a href="../work.html" target="_self">Work</a></li>
         <li><a href="../contact.html" target="_self">Contact</a></li>
-        <img class="logo" src="../img/M_L_logo.png">
+        <img id="logo" src="../img/M_L_logo.png">
       </ul>
     </nav>
   </header>
