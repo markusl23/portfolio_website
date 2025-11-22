@@ -35,19 +35,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="../img/M_L_logo.ico">
-  <link rel="stylesheet" type="text/css" href="../css/styles.css">
-  <link rel="stylesheet" type="text/css" href="../css/normalize.css">
-    <title>M.L.: Message received</title>
+  <link rel="icon" type="image/x-icon" href="img/M_L_logo.ico">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <title>M.L.: Message received</title>
 </head>
 <body>
   <header>
     <nav>
-      <ul>
-        <li><a href="../index.html" target="_self">Home</a></li>
-        <li><a href="../work.html" target="_self">Work</a></li>
-        <li><a href="../contact.html" target="_self">Contact</a></li>
-        <img id="logo" src="../img/M_L_logo.png">
+      <img id="logo" src="img/M_L_logo.png" alt="M L logo">
+      <ul role="menubar">
+        <li role="presentation"><a role="menuitem" href="contact.html" target="_self">Contact</a></li>
+        <li role="presentation"><a role="menuitem" href="work.html" target="_self">Work</a></li>
+        <li role="presentation"><a role="menuitem" href="index.html" target="_self">Home</a></li>
       </ul>
     </nav>
   </header>
@@ -56,8 +56,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </main>
   <footer>
     <div class="footer">
-      <a href="../imprint.html">Imprint</a>
-      <a href="../gdpr.html">GDPR</a>
+      <a href="imprint.html">Imprint</a>
+      <a href="gdpr.html">GDPR</a>
       <p>©2025</p>
     </div>
   </footer>
@@ -69,19 +69,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="../img/M_L_logo.ico">
-  <link rel="stylesheet" type="text/css" href="../css/styles.css">
-  <link rel="stylesheet" type="text/css" href="../css/normalize.css">
-    <title>M.L.: Message error</title>
+  <link rel="icon" type="image/x-icon" href="img/M_L_logo.ico">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <title>M.L.: Message error</title>
 </head>
 <body>
   <header>
     <nav>
-      <ul>
-        <li><a href="../index.html" target="_self">Home</a></li>
-        <li><a href="../work.html" target="_self">Work</a></li>
-        <li><a href="../contact.html" target="_self">Contact</a></li>
-        <img class="logo" src="../img/M_L_logo.png">
+      <img id="logo" src="img/M_L_logo.png" alt="M L logo">
+      <ul role="menubar">
+        <li role="presentation"><a role="menuitem" href="contact.html" target="_self">Contact</a></li>
+        <li role="presentation"><a role="menuitem" href="work.html" target="_self">Work</a></li>
+        <li role="presentation"><a role="menuitem" href="index.html" target="_self">Home</a></li>
       </ul>
     </nav>
   </header>
@@ -90,8 +90,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </main>
   <footer>
     <div class="footer">
-      <a href="../imprint.html">Imprint</a>
-      <a href="../gdpr.html">GDPR</a>
+      <a href="imprint.html">Imprint</a>
+      <a href="gdpr.html">GDPR</a>
       <p>©2025</p>
     </div>
   </footer>
